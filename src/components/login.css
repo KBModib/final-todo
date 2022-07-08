@@ -1,0 +1,69 @@
+.welcome {
+    height: 100vh;
+    width: 100vw;
+    background-color: #5ac2c4;
+    -webkit-text-fill-color: #EEB5EB;
+    font-family: 'Kalam', cursive;
+    overflow: hidden;
+  }
+  
+  .welcome > h1 {
+    font-family: 'Kalam', cursive;
+    font-weight: normal;
+    font-size: 120px;
+    left: 40%;
+    top: 5%;
+    position: absolute;
+  }
+  
+  .login-register-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 50px;
+    left: 43%;
+    top: 35%;
+    background: #ffffff;
+  }
+  
+  .login-register-container > input {
+    height: 30px;
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 20%;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 25px;
+    padding: 5px;
+  }
+  
+  .login-register-container > button {
+    padding: 5px 20px;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .sign-in-register-button {
+    background-color: #5ac2c4;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Kalam', cursive;
+    font-weight: normal;
+    color: white;
+    border-radius: 20%;
+  }
+  
+  .create-account-button {
+    background: none;
+    margin-top: 10px;
+  }
+  
+  .todo-svg {
+    position: absolute;
+    bottom: 100px;
+    right: 300px;
+    transform: scale(1.3);
+  }
